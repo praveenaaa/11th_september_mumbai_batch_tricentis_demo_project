@@ -1,0 +1,17 @@
+com\base\BasePage.class
+com\pages\OrderConfirmationPage.class
+com\pages\PaymentPage.class
+com\runner\TestRunner.class
+com\pages\ComputersPage.class
+com\pages\DesktopsPage.class
+com\pages\JewelleryPage.class
+com\stepDefinitionTestNG\DemoWebShopSteps.class
+utils\WaitUtils.class
+com\pages\HomePage.class
+com\pages\RegisterPage.class
+com\stepDefinitionTestNG\Hooks.class
+com\base\DriverManager.class
+com\pages\LoginPage.class
+com\pages\ShoppingCartPage.class
+com\pages\SearchPage.class
+com\pages\CheckoutPage.class

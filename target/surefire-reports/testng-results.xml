@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-15T16:47:24 IST" name="Surefire suite" finished-at="2025-11-15T16:47:32 IST" duration-ms="7544">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@26275bef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-15T16:47:24 IST" name="Surefire test" finished-at="2025-11-15T16:47:32 IST" duration-ms="7544">
+      <class name="com.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.runner.TestRunner@26275bef]" started-at="2025-11-15T16:47:24 IST" name="setUpClass" finished-at="2025-11-15T16:47:25 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.TestRunner@26275bef]" started-at="2025-11-15T16:47:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-15T16:47:31 IST" duration-ms="5877" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Tricentis Demo Web Shop]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.pages.HomePage.goToLogin()" because "this.home" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.pages.HomePage.goToLogin()" because "this.home" is null
+at com.stepDefinitionTestNG.DemoWebShopSteps.i_enter_username_and_password(DemoWebShopSteps.java:101)
+at ✽.I enter Username and Password(file:///E:/sprint2_unacademy/Tricentis_demo_project/src/test/resources/Features/Tricentis.feature:35)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.TestRunner@26275bef]" started-at="2025-11-15T16:47:31 IST" name="tearDownClass" finished-at="2025-11-15T16:47:32 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

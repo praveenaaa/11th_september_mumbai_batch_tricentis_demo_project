@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.160 s <<< FAILURE! -- in com.runner.TestRunner
+com.runner.TestRunner.runScenario["Login functionality", "Optional[Tricentis Demo Web Shop]"](1) -- Time elapsed: 5.883 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.pages.HomePage.goToLogin()" because "this.home" is null
+	at com.stepDefinitionTestNG.DemoWebShopSteps.i_enter_username_and_password(DemoWebShopSteps.java:101)
+	at ✽.I enter Username and Password(file:///E:/sprint2_unacademy/Tricentis_demo_project/src/test/resources/Features/Tricentis.feature:35)
+

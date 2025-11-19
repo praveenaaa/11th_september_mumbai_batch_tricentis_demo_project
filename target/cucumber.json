@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-11-17T13:39:10.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2664283300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitionTestNG.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Login functionality",
+        "description": "",
+        "id": "tricentis-demo-web-shop;login-functionality",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitionTestNG.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6099814300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "com.stepDefinitionTestNG.DemoWebShopSteps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4308169900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "com.stepDefinitionTestNG.DemoWebShopSteps.i_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234281000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "login should be successful",
+            "match": {
+              "location": "com.stepDefinitionTestNG.DemoWebShopSteps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DemoWebShop"
+          },
+          {
+            "name": "@LoginPass"
+          }
+        ]
+      }
+    ],
+    "name": "Tricentis Demo Web Shop",
+    "description": "",
+    "id": "tricentis-demo-web-shop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Tricentis.feature",
+    "tags": [
+      {
+        "name": "@DemoWebShop",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

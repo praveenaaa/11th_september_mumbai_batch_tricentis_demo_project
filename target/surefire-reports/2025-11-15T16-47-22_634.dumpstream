@@ -1,0 +1,5 @@
+# Created at 2025-11-15T16:47:23.534
+Boot Manifest-JAR contains absolute paths in classpath 'E:\sprint2_unacademy\Tricentis_demo_project\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
