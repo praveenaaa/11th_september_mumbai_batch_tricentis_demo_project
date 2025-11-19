@@ -17,7 +17,7 @@ Feature: Tricentis Demo Web Shop
 
 
   ###################################################
-  # 2. Successful Registration
+  # 2. Successful Registration done by pravin
   ###################################################
   @RegistrationPass
   Scenario: Successful Registration
